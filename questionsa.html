@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>dashboard.. ja!</title>
+  </head>
+  <body>
+    <form action="/questionsa" method="POST">
+      <h2>Question</h2>
+      <input type="text" placeholder="question title" name="question">
+      <h2>Answer 1</h2>
+      <input type="text" placeholder="answer 1" name="first_option">
+      <input type="checkbox" name="first_option_correct">
+      <input type="number" placeholder="points" name="first_option_points">
+
+      <h2>Answer 2</h2>
+      <input type="text" placeholder="answer 2" name="second_option">
+      <input type="checkbox" name="second_option_correct">
+      <input type="number" placeholder="points" name="second_option_points">
+
+      <h2>Answer 3</h2>
+      <input type="text" placeholder="answer 3" name="third_option">
+      <span>correct answer?</span>
+      <input type="checkbox" name="third_option_correct">
+      <input type="number" placeholder="points" name="third_option_points">
+
+      <h2>Answer 4</h2>
+      <input type="text" placeholder="answer 4" name="fourth_option">
+      <input type="checkbox" name="fourth_option_correct">
+      <input type="number" placeholder="points" name="fourth_option_points">
+
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>
